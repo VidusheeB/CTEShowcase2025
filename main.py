@@ -1,3 +1,4 @@
+from rapidfuzz import process
 import pandas as pd
 import joblib
 
@@ -5,22 +6,40 @@ model = joblib.load("knn_model.joblib")
 label_encoders = joblib.load("label_encoders.joblib")
 snack_labels = joblib.load("snack_labels.joblib")
 
+valid_inputs = {
+    "Sweet/Salty": ["Sweet", "Salty"],
+    "Spicy": ["Yes", "No"],
+    "Activity": ["Gaming", "Sports", "Reading", "Hanging Out"],
+    "SnackTime": ["Morning", "Afternoon", "Evening", "Late Night"],
+    "Texture": ["Crunchy", "Chewy", "Soft", "Mixed"],
+    "Temperature": ["Cold", "Room Temp", "Warm"]
+}
+
+def get_closest_match(user_input, options):
+    user_input = user_input.strip().lower()
+    options_lower = [opt.lower() for opt in options]
+    match, score, _ = process.extractOne(user_input, options_lower)
+    if score > 70:
+        return options[options_lower.index(match)]
+    return None
+
+
 print("Snack Predictor! Answer the following questions:")
 
-sweet_salty = input("Do you prefer Sweet or Salty? ").capitalize()
-spicy = input("Do you like spicy food? (Yes/No) ").capitalize()
-activity = input("Pick a weekend activity (Gaming, Sports, Reading, Hanging Out): ").title()
-snack_time = input("When do you usually snack? (Morning, Afternoon, Evening, Late Night): ").title()
-texture = input("What texture do you prefer? (Crunchy, Chewy, Soft, Mixed): ").capitalize()
-temperature = input("Snack temperature preference? (Cold, Room Temp, Warm): ").title()
+responses = {}
+for feature in valid_inputs:
+    while True:
+        user_input = input(f"{feature}? Options: {valid_inputs[feature]} \n> ").strip()
+        corrected = get_closest_match(user_input, valid_inputs[feature])
+        if corrected:
+            responses[feature] = corrected
+            break
+        else:
+            print(f"Could not understand '{user_input}'. Please try again.\n")
 
-user_input = pd.DataFrame([[sweet_salty, spicy, activity, snack_time, texture, temperature]],
-                          columns=['Sweet/Salty', 'Spicy', 'Activity', 'SnackTime', 'Texture', 'Temperature'])
+user_input_df = pd.DataFrame([responses])
+for col in user_input_df.columns:
+    user_input_df[col] = label_encoders[col].transform(user_input_df[col])
 
-for col in user_input.columns:
-    user_input[col] = label_encoders[col].transform(user_input[col])
-
-prediction = model.predict(user_input)[0]
-predicted_snack = snack_labels[prediction]
-
-print(f"Your predicted favorite snack is: {predicted_snack}")
+prediction = model.predict(user_input_df)[0]
+print(f"Your predicted snack is: {snack_labels[prediction]}")
