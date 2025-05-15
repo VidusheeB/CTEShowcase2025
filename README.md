@@ -29,28 +29,5 @@ python train_model.py
 ## 🎯 Predict
 ```
 python main.py
-```
-
-## 🗂 Using Google Sheets (Optional)
-If your data is in a Google Spreadsheet:
-1. Share it with a Google service account (you’ll need a `credentials.json`)
-2. Use the `gspread` library:
-```python
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-import pandas as pd
-
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
-client = gspread.authorize(creds)
-
-sheet = client.open("YourSheetName").sheet1
-data = pd.DataFrame(sheet.get_all_records())
-```
-3. Save to CSV: `data.to_csv("snack_data.csv", index=False)`
 
 Then continue with training.
-
----
-
-Designed for high school data science clubs!
