@@ -19,7 +19,7 @@ X = df.drop('Snack', axis=1)
 y = df['Snack']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-model = KNeighborsClassifier(n_neighbors=3)
+model = KNeighborsClassifier(n_neighbors=11)
 model.fit(X_train, y_train)
 
 joblib.dump(model, 'knn_model.joblib')
