@@ -1,101 +1,48 @@
 Sweet/Salty,Spicy,Activity,SnackTime,Texture,Temperature,Snack
-Salty,No,Reading,Evening,Chewy,Cold,Trail Mix
-Sweet,Yes,Reading,Evening,Mixed,Room Temp,Chocolate Bar
-Sweet,Yes,Gaming,Late Night,Soft,Cold,Oreos
-Sweet,No,Sports,Afternoon,Soft,Cold,Fruit Snacks
-Sweet,No,Hanging Out,Late Night,Mixed,Room Temp,Fruit Snacks
-Salty,Yes,Reading,Evening,Mixed,Warm,Hot Cheetos
-Salty,No,Reading,Evening,Soft,Warm,Popcorn
-Salty,Yes,Sports,Afternoon,Chewy,Cold,Hot Cheetos
-Salty,No,Reading,Morning,Soft,Warm,Popcorn
-Salty,Yes,Hanging Out,Morning,Crunchy,Room Temp,Hot Cheetos
-Sweet,Yes,Gaming,Evening,Soft,Cold,Chocolate Bar
-Sweet,No,Hanging Out,Morning,Mixed,Cold,Yogurt
-Sweet,Yes,Hanging Out,Late Night,Crunchy,Room Temp,Chocolate Bar
-Sweet,No,Sports,Late Night,Crunchy,Cold,Fruit Snacks
-Sweet,Yes,Gaming,Late Night,Crunchy,Cold,Oreos
-Salty,No,Sports,Morning,Soft,Cold,Pretzels
-Sweet,Yes,Hanging Out,Afternoon,Chewy,Cold,Fruit Snacks
-Sweet,No,Sports,Late Night,Crunchy,Warm,Fruit Snacks
-Sweet,No,Reading,Late Night,Mixed,Warm,Chocolate Bar
-Sweet,No,Gaming,Evening,Chewy,Warm,Fruit Snacks
-Salty,Yes,Sports,Late Night,Chewy,Room Temp,Hot Cheetos
-Sweet,No,Gaming,Late Night,Crunchy,Cold,Chocolate Bar
-Salty,No,Hanging Out,Late Night,Mixed,Room Temp,Pretzels
-Sweet,Yes,Sports,Late Night,Mixed,Warm,Chocolate Bar
-Salty,Yes,Gaming,Late Night,Crunchy,Cold,Hot Cheetos
-Sweet,Yes,Sports,Morning,Crunchy,Room Temp,Yogurt
-Sweet,No,Gaming,Late Night,Crunchy,Cold,Fruit Snacks
-Salty,No,Reading,Evening,Crunchy,Cold,Pretzels
-Sweet,No,Gaming,Evening,Soft,Room Temp,Chocolate Bar
-Sweet,No,Reading,Late Night,Crunchy,Room Temp,Chocolate Bar
-Sweet,Yes,Reading,Morning,Crunchy,Cold,Chocolate Bar
-Salty,No,Sports,Late Night,Mixed,Cold,Trail Mix
-Sweet,No,Hanging Out,Late Night,Chewy,Warm,Oreos
-Sweet,Yes,Sports,Morning,Soft,Warm,Yogurt
-Sweet,Yes,Gaming,Morning,Mixed,Room Temp,Yogurt
-Salty,No,Hanging Out,Morning,Mixed,Cold,Trail Mix
-Sweet,No,Sports,Evening,Crunchy,Warm,Chocolate Bar
-Salty,Yes,Gaming,Afternoon,Mixed,Cold,Hot Cheetos
-Salty,Yes,Reading,Morning,Crunchy,Warm,Hot Cheetos
-Sweet,Yes,Reading,Late Night,Soft,Warm,Chocolate Bar
-Sweet,No,Reading,Afternoon,Crunchy,Room Temp,Chocolate Bar
-Sweet,Yes,Reading,Afternoon,Soft,Warm,Chocolate Bar
-Salty,No,Hanging Out,Late Night,Soft,Cold,Pretzels
-Sweet,Yes,Sports,Morning,Soft,Room Temp,Yogurt
-Salty,Yes,Gaming,Afternoon,Mixed,Room Temp,Hot Cheetos
-Sweet,No,Reading,Evening,Mixed,Warm,Chocolate Bar
-Salty,Yes,Reading,Evening,Mixed,Room Temp,Hot Cheetos
-Sweet,No,Reading,Evening,Soft,Room Temp,Chocolate Bar
-Sweet,No,Hanging Out,Late Night,Crunchy,Room Temp,Fruit Snacks
-Salty,Yes,Reading,Late Night,Crunchy,Room Temp,Hot Cheetos
-Sweet,No,Gaming,Morning,Crunchy,Room Temp,Yogurt
-Sweet,No,Reading,Evening,Mixed,Warm,Chocolate Bar
-Salty,Yes,Gaming,Late Night,Crunchy,Warm,Hot Cheetos
-Sweet,Yes,Reading,Late Night,Mixed,Room Temp,Chocolate Bar
-Sweet,Yes,Hanging Out,Late Night,Soft,Cold,Oreos
-Salty,Yes,Hanging Out,Afternoon,Soft,Warm,Hot Cheetos
-Sweet,No,Hanging Out,Late Night,Crunchy,Cold,Chocolate Bar
-Sweet,Yes,Reading,Late Night,Soft,Room Temp,Chocolate Bar
-Sweet,Yes,Hanging Out,Late Night,Chewy,Room Temp,Granola Bar
-Salty,No,Hanging Out,Late Night,Mixed,Cold,Trail Mix
-Sweet,Yes,Hanging Out,Late Night,Crunchy,Room Temp,Fruit Snacks
-Salty,No,Gaming,Afternoon,Mixed,Warm,Popcorn
-Salty,Yes,Hanging Out,Late Night,Soft,Room Temp,Hot Cheetos
-Salty,Yes,Sports,Late Night,Mixed,Cold,Hot Cheetos
-Salty,No,Gaming,Evening,Crunchy,Room Temp,Chips
-Sweet,Yes,Hanging Out,Morning,Crunchy,Room Temp,Yogurt
-Salty,Yes,Reading,Evening,Chewy,Cold,Hot Cheetos
-Salty,No,Reading,Late Night,Mixed,Room Temp,Trail Mix
-Sweet,No,Gaming,Afternoon,Mixed,Room Temp,Fruit Snacks
-Salty,Yes,Reading,Morning,Soft,Room Temp,Hot Cheetos
-Sweet,Yes,Gaming,Afternoon,Soft,Warm,Fruit Snacks
-Sweet,No,Gaming,Late Night,Mixed,Room Temp,Oreos
-Salty,No,Sports,Evening,Crunchy,Room Temp,Pretzels
-Salty,Yes,Hanging Out,Evening,Crunchy,Cold,Hot Cheetos
-Salty,Yes,Sports,Late Night,Soft,Warm,Hot Cheetos
-Sweet,No,Gaming,Afternoon,Chewy,Room Temp,Granola Bar
-Sweet,Yes,Sports,Morning,Soft,Room Temp,Yogurt
-Sweet,No,Reading,Afternoon,Soft,Room Temp,Chocolate Bar
-Sweet,No,Hanging Out,Late Night,Mixed,Warm,Fruit Snacks
-Sweet,No,Gaming,Late Night,Mixed,Room Temp,Chocolate Bar
-Salty,No,Reading,Evening,Mixed,Cold,Pretzels
-Salty,Yes,Reading,Afternoon,Soft,Cold,Hot Cheetos
-Salty,Yes,Hanging Out,Morning,Soft,Warm,Hot Cheetos
-Sweet,Yes,Hanging Out,Afternoon,Soft,Room Temp,Oreos
-Salty,No,Reading,Late Night,Crunchy,Cold,Trail Mix
-Sweet,Yes,Gaming,Afternoon,Mixed,Warm,Fruit Snacks
-Sweet,Yes,Sports,Morning,Crunchy,Room Temp,Yogurt
-Salty,No,Reading,Afternoon,Chewy,Warm,Popcorn
-Salty,No,Sports,Afternoon,Mixed,Room Temp,Pretzels
-Sweet,Yes,Hanging Out,Morning,Crunchy,Warm,Yogurt
-Salty,Yes,Sports,Morning,Mixed,Room Temp,Hot Cheetos
-Sweet,No,Reading,Morning,Mixed,Warm,Chocolate Bar
-Sweet,No,Gaming,Afternoon,Mixed,Room Temp,Fruit Snacks
-Salty,Yes,Hanging Out,Morning,Crunchy,Cold,Hot Cheetos
-Sweet,No,Gaming,Late Night,Chewy,Warm,Fruit Snacks
-Salty,Yes,Sports,Evening,Crunchy,Warm,Hot Cheetos
-Salty,Yes,Reading,Evening,Crunchy,Cold,Hot Cheetos
-Sweet,No,Hanging Out,Afternoon,Soft,Room Temp,Oreos
-Salty,No,Hanging Out,Late Night,Chewy,Warm,Popcorn
-Sweet,Yes,Gaming,Evening,Crunchy,Room Temp,Chocolate Bar
+Sweet,No,Reading,Evening,Mixed,Room temperature,Chocolate
+Savory,Yes,Gaming,Evening,Chewy,Cold,Chips
+Savory,No,Gaming,Afternoon,Crunchy,Warm,Pretzels
+Sweet,Yes,Hanging out,Evening,Mixed,Warm,Oreos
+Sweet,No,Hanging out,Evening,Mixed,Room temperature,Oreos
+Savory,Yes,Hanging out,Evening,Crunchy,Room temperature,Hot Cheetos
+Savory,Yes,Gaming,Afternoon,Soft,Warm,Popcorn
+Savory,Yes,Gaming,Late night,Crunchy,Room temperature,Chips
+Savory,Yes,Hanging out,Afternoon,Mixed,Room temperature,Hot Cheetos
+Savory,Yes,Reading,Afternoon,Crunchy,Room temperature,Hot Cheetos
+Savory,Yes,Hanging out,Afternoon,Mixed,Room temperature,Yogurt
+Savory,Yes,Hanging out,Evening,Crunchy,Room temperature,Popcorn
+Savory,No,Hanging out,Late night,Crunchy,Room temperature,Chocolate
+Savory,Yes,Reading,Evening,Mixed,Room temperature,Hot Cheetos
+Sweet,Yes,Hanging out,Evening,Mixed,Room temperature,Chocolate
+Savory,Yes,Hanging out,Evening,Mixed,Room temperature,Hot Cheetos
+Savory,Yes,Hanging out,Evening,Mixed,Room temperature,Trail Mix
+Savory,Yes,Reading,Afternoon,Crunchy,Room temperature,Hot Cheetos
+Sweet,Yes,Hanging out,Evening,Mixed,Cold,Hot Cheetos
+Sweet,Yes,Gaming,Evening,Soft,Room temperature,Chocolate
+Savory,Yes,Reading,Evening,Crunchy,Warm,Fruit snacks
+Savory,Yes,Hanging out,Evening,Mixed,Cold,Hot Cheetos
+Sweet,Yes,Reading,Evening,Soft,Room temperature,Chips
+Sweet,Yes,Hanging out,Evening,Chewy,Room temperature,Chocolate
+Sweet,Yes,Gaming,Evening,Mixed,Cold,Chocolate
+Savory,Yes,Hanging out,Afternoon,Mixed,Room temperature,Oreos
+Sweet,Yes,Gaming,Evening,Chewy,Warm,Chocolate
+Sweet,Yes,Hanging out,Afternoon,Mixed,Cold,Yogurt
+Savory,Yes,Hanging out,Afternoon,Crunchy,Cold,Popcorn
+Savory,Yes,Hanging out,Afternoon,Crunchy,Room temperature,Chips
+Savory,Yes,Reading,Afternoon,Crunchy,Room temperature,Hot Cheetos
+Sweet,Yes,Hanging out,Late night,Mixed,Room temperature,Oreos
+Sweet,Yes,Gaming,Evening,Mixed,Warm,Chocolate
+Savory,No,Hanging out,Afternoon,Crunchy,Cold,Chips
+Sweet,Yes,Gaming,Morning,Mixed,Cold,Chocolate
+Sweet,Yes,Hanging out,Afternoon,Crunchy,Cold,Oreos
+Savory,Yes,Gaming,Afternoon,Crunchy,Room temperature,Yogurt
+Savory,Yes,Hanging out,Evening,Crunchy,Room temperature,Hot Cheetos
+Savory,Yes,Gaming,Afternoon,Crunchy,Cold,Hot Cheetos
+Savory,No,Sports,Afternoon,Mixed,Warm,Chocolate
+Savory,Yes,Reading,Late night,Crunchy,Room temperature,Hot Cheetos
+Sweet,Yes,Sports,Evening,Crunchy,Room temperature,Oreos
+Savory,Yes,Hanging out,Afternoon,Mixed,Room temperature,Hot Cheetos
+Sweet,No,Gaming,Evening,Crunchy,Room temperature,Chocolate
+Sweet,Yes,Gaming,Afternoon,Mixed,Room temperature,Hot Cheetos
+Sweet,No,Hanging out,Afternoon,Chewy,Room temperature,Chocolate
+Sweet,Yes,Hanging out,Late night,Mixed,Room temperature,Popcorn
